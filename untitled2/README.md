@@ -1,16 +1,12 @@
-# untitled2
+# untitled2 (Flutter Puzzle Hack)
 
-A new Flutter project.
+This directory is the actual Flutter project for the **Flutter Puzzle Hack** sliding-puzzle app (its internal Flutter package name, from the original `flutter create`, is still `untitled2`).
 
-## Getting Started
+For the project description, features, tech stack, and setup instructions, see the [repository README](../README.md). For an explanation of how the puzzle logic and state management work, see the [developer guide](../GUIDE.md).
 
-This project is a starting point for a Flutter application.
+Quick start from this directory:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
